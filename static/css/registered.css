@@ -1,0 +1,45 @@
+/* CSS code */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+.content {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: #f9f9f9; /* Add a light background color */
+    padding: 20px; /* Add padding for spacing */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+h2 {
+    font-size: 22px;
+    text-align: center;
+    color: #333; /* Add a dark text color */
+    margin-bottom: 20px; /* Add spacing below the heading */
+}
+
+.jumbotron {
+    margin-top: 40px;
+    background-color: #f0f0f0; /* Change background color */
+    padding: 40px; /* Add padding for spacing */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Add a more pronounced shadow */
+    text-align: center; /* Center-align text */
+}
+
+.jumbotron .display-4 {
+    font-size: 36px; /* Increase font size */
+    color: #007bff; /* Change text color to a primary color */
+    margin-bottom: 20px; /* Add spacing below the heading */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a text shadow for emphasis */
+}
+
+/* Add hover effect to jumbotron */
+.jumbotron:hover {
+    transform: translateY(-5px); /* Move the jumbotron up slightly on hover */
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3); /* Add a larger shadow on hover */
+}
